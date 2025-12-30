@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Player</title>
+    <style>
+        .player {
+            width: 250px;
+            background: white;
+            padding: 15px;
+            margin: 50px auto;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .cover {
+            width: 100%;
+            height: 150px;
+            background-color: #ddd;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .artist {
+            font-size: 13px;
+            color: gray;
+            margin-bottom: 10px;
+        }
+
+        .progress {
+            width: 100%;
+            height: 5px;
+            background: #ccc;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            width: 40%;
+            height: 100%;
+            background: #2196f3;
+        }
+
+        .controls button {
+            padding: 5px 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="player">
+        <div class="cover"></div>
+        <div class="title">Sample Song</div>
+        <div class="artist">Sample Artist</div>
+        <div class="progress">
+            <div class="progress-fill"></div>
+        </div>
+        <div class="controls">
+            <button>Prev</button>
+            <button>Play</button>
+            <button>Next</button>
+        </div>
+    </div>
+</body>
+
+</html>
